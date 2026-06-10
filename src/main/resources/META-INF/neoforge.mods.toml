@@ -10,8 +10,8 @@ description='''
 Compatibility mod that enables precise 3D hitbox-based damage distribution
 when using TacZ (Timeless and Classics Zero) with First Aid.
 '''
-credits="Ranazy"
-authors="Ranazy"
+credits="YanS"
+authors="YanS"
 displayURL="https://github.com/VoyagerVPN/TaCZ-FirstAidCompat"
 # updateJSONURL="https://raw.githubusercontent.com/VoyagerVPN/TaCZ-FirstAidCompat/main/update.json"
 

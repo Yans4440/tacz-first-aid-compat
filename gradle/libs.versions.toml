@@ -1,0 +1,5 @@
+[versions]
+mixin = "0.8.5"
+
+[libraries]
+org-spongepowered-mixin = { module = "org.spongepowered:mixin", version.ref = "mixin" }

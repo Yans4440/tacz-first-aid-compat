@@ -1,0 +1,47 @@
+modLoader="javafml"
+loaderVersion="[2,)"
+license="MIT"
+
+[[mods]]
+modId="tacz_firstaid_compat"
+version="${version}"
+displayName="[TaCZ] First Aid Compat"
+description='''
+Compatibility mod that enables precise 3D hitbox-based damage distribution
+when using TacZ (Timeless and Classics Zero) with First Aid.
+'''
+credits="Ranazy"
+authors="Ranazy"
+displayURL="https://github.com/VoyagerVPN/TaCZ-FirstAidCompat"
+# updateJSONURL="https://raw.githubusercontent.com/VoyagerVPN/TaCZ-FirstAidCompat/main/update.json"
+
+[[dependencies.tacz_firstaid_compat]]
+modId="neoforge"
+mandatory=true
+versionRange="[21.1,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tacz_firstaid_compat]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.21.1,1.22)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tacz_firstaid_compat]]
+modId="tacz"
+mandatory=true
+versionRange="[1.0.3-1.21.1,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.tacz_firstaid_compat]]
+modId="firstaid"
+mandatory=true
+versionRange="[1.2.6,)"
+ordering="AFTER"
+side="BOTH"
+
+[[mixins]]
+config="tacz_firstaid_compat.mixins.json"

@@ -1,0 +1,9 @@
+64d0c5b Release v1.0.0 - Full Fix and Localization
+52288f6 Release v0.0.4-beta - Injection fix with remap=false
+be373ac Release v0.0.3-beta - Add missing @Mod main class
+4053d06 Release v0.0.2-beta - Fix missing modLoader in mods.toml
+29db91f Add GitHub Actions CI/CD for automated releases
+fdde886 Remove build log from repository
+1b0dbf2 Release v0.0.1-beta - Initial assembly
+5c31afe Initial commit of [TaCZ] First Aid Compat
+43c0dfc Initial commit

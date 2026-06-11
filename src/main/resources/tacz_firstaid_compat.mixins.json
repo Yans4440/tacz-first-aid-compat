@@ -10,7 +10,8 @@
   "mixins": [
     "EntityKineticBulletHitCaptureMixin",
     "FirstAidEventHandlerMixin",
-    "FirstAidHeadshotDeathMixin"
+    "FirstAidHeadshotDeathMixin",
+    "StatusEffectLayerMixin"
   ],
   "injectors": {
     "defaultRequire": 1

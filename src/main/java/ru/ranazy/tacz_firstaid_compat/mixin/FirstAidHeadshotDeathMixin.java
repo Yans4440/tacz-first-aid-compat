@@ -18,8 +18,10 @@ public abstract class FirstAidHeadshotDeathMixin extends AbstractPlayerDamageMod
 
     @Inject(method = "isDead", at = @At("HEAD"), cancellable = true)
     private void firstaid$dieOnHeadshot(Player player, CallbackInfoReturnable<Boolean> cir) {
-        if (this.HEAD.currentHealth <= 0.0f) {
-            cir.setReturnValue(true);
+        if (ru.ranazy.tacz_firstaid_compat.CompatConfig.SERVER.instantDeathOnHeadshot.get()) {
+            if (this.HEAD.currentHealth <= 0.0f) {
+                cir.setReturnValue(true);
+            }
         }
     }
 }
